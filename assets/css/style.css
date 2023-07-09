@@ -12,7 +12,7 @@ a {
 }
 
 a:hover {
-  color: rgba(8, 163, 73, 0.9);
+  color: rgba(11, 239, 109, 0.9);
   text-decoration: none;
 }
 
@@ -87,13 +87,36 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: rgba(8, 163, 73, 0.9);
+  background: rgba(11, 239, 109, 0.9);
   color: #fff;
 }
 
 .back-to-top.active {
   visibility: visible;
   opacity: 1;
+}
+
+/*--------------------------------------------------------------
+# Evaluacion Induccion button
+--------------------------------------------------------------*/
+.float{
+	position:fixed;
+	width:200px;
+	height:50px;
+	bottom:40px;
+	left:40px;
+  padding: 10px;
+	background-color:rgba(8, 163, 73, 0.9);
+	color:#FFF;
+	border-radius:20px;
+	text-align: center;
+	/*box-shadow: 2px 2px 3px #ffffff;*/
+  font-size: large;
+  font-family: sans-serif;
+}
+
+.my-float{
+	margin-top:22px;
 }
 
 /*--------------------------------------------------------------
@@ -174,7 +197,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: rgba(8, 163, 73, 0.9);
+  color: rgba(11, 239, 109, 0.9);
 }
 
 .navbar .getstarted,
@@ -191,7 +214,8 @@ h6 {
 .navbar .getstarted:hover,
 .navbar .getstarted:focus:hover {
   color: #fff;
-  background: #31a9e1;
+  background: rgba(11, 239, 109, 0.9);
+  border: rgba(11, 239, 109, 0.9);
 }
 
 .navbar .dropdown ul {
@@ -229,7 +253,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: rgba(8, 163, 73, 0.9);
+  color: rgba(11, 239, 109, 0.9);
 }
 
 .navbar .dropdown:hover>ul {
@@ -329,7 +353,7 @@ h6 {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: rgba(8, 163, 73, 0.9);
+  color: rgba(11, 239, 109, 0.9);
 }
 
 .navbar-mobile .getstarted,
@@ -365,7 +389,7 @@ h6 {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  color: rgba(8, 163, 73, 0.9);
+  color: rgba(11, 239, 109, 0.9);
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -454,7 +478,7 @@ h6 {
 }
 
 #hero .btn-get-started:hover {
-  background: #209dd8;
+  background: rgba(11, 239, 109, 0.9);
 }
 
 #hero .btn-watch-video {
@@ -476,7 +500,7 @@ h6 {
 }
 
 #hero .btn-watch-video:hover i {
-  color: rgba(8, 163, 73, 0.9);
+  color: rgba(11, 239, 109, 0.9);
 }
 
 #hero .animated {
@@ -672,7 +696,8 @@ section {
 }
 
 .about .content .btn-learn-more:hover {
-  background: rgba(8, 163, 73, 0.9);
+  background: rgba(11, 239, 109, 0.9);
+  border: rgba(11, 239, 109, 0.9);
   color: #fff;
   text-decoration: none;
 }
@@ -766,7 +791,7 @@ section {
 }
 
 .why-us .accordion-list a.collapsed:hover {
-  color: rgba(8, 163, 73, 0.9);
+  color: rgba(11, 239, 109, 0.9);
 }
 
 .why-us .accordion-list a.collapsed .icon-show {
@@ -911,7 +936,7 @@ section {
 }
 
 .services .icon-box:hover h4 a {
-  color: rgba(8, 163, 73, 0.9);
+  color: rgba(11, 239, 109, 0.9);
 }
 
 /*--------------------------------------------------------------
@@ -948,8 +973,8 @@ section {
 }
 
 .cta .cta-btn:hover {
-  background: rgba(8, 163, 73, 0.9);
-  border: 2px solid rgba(8, 163, 73, 0.9);
+  background: rgba(11, 239, 109, 0.9);
+  border: 2px solid rgba(11, 239, 109, 0.9);
 }
 
 @media (max-width: 1024px) {
@@ -990,7 +1015,7 @@ section {
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-  background: rgba(8, 163, 73, 0.9);
+  background: rgba(11, 239, 109, 0.9);
   color: #fff;
 }
 
@@ -1044,7 +1069,7 @@ section {
 
 .portfolio .portfolio-item .portfolio-info .preview-link:hover,
 .portfolio .portfolio-item .portfolio-info .details-link:hover {
-  color: rgba(8, 163, 73, 0.9);
+  color: rgba(11, 239, 109, 0.9);
 }
 
 .portfolio .portfolio-item .portfolio-info .details-link {
@@ -1211,7 +1236,7 @@ section {
 }
 
 .team .member .social a:hover {
-  background: rgba(8, 163, 73, 0.9);
+  background: rgba(11, 239, 109, 0.9);
 }
 
 .team .member .social a:hover i {
@@ -1310,7 +1335,7 @@ section {
 }
 
 .pricing .buy-btn:hover {
-  background: rgba(8, 163, 73, 0.9);
+  background: rgba(11, 239, 109, 0.9);
   color: #fff;
 }
 
@@ -1324,7 +1349,7 @@ section {
 }
 
 .pricing .featured .buy-btn:hover {
-  background: #23a3df;
+  background: rgba(11, 239, 109, 0.9);
 }
 
 @media (max-width: 992px) {
@@ -1414,7 +1439,7 @@ section {
 }
 
 .faq .faq-list a.collapsed:hover {
-  color: rgba(8, 163, 73, 0.9);
+  color: rgba(11, 239, 109, 0.9);
 }
 
 .faq .faq-list a.collapsed .icon-show {
@@ -1496,14 +1521,14 @@ section {
 }
 
 .contact .info .social-links a:hover {
-  background: rgba(8, 163, 73, 0.9);
+  background: rgba(11, 239, 109, 0.9);
   color: #fff;
 }
 
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-  background: rgba(8, 163, 73, 0.9);
+  background: rgba(11, 239, 109, 0.9);
   color: #fff;
 }
 
@@ -1608,7 +1633,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #209dd8;
+  background: rgba(11, 239, 109, 0.9);
 }
 
 @keyframes animate-loading {
@@ -1721,7 +1746,7 @@ section {
 }
 
 #footer .footer-newsletter form input[type=submit]:hover {
-  background: #209dd8;
+  background: rgba(11, 239, 109, 0.9);
 }
 
 #footer .footer-top {
@@ -1795,7 +1820,7 @@ section {
 
 #footer .footer-top .footer-links ul a:hover {
   text-decoration: none;
-  color: rgba(8, 163, 73, 0.9);
+  color: rgba(11, 239, 109, 0.9);
 }
 
 #footer .footer-top .social-links a {
@@ -1814,7 +1839,7 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #209dd8;
+  background: rgba(11, 239, 109, 0.9);
   color: #fff;
   text-decoration: none;
 }
