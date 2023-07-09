@@ -384,11 +384,17 @@ h6 {
   padding: 0 5%;
 }
 
+#vidtext{
+  position:absolute;
+    
+}
+
 .back-video{
   position: absolute;
   right: 0;
   bottom: 0;
-  z-index: -1;
+  min-width: 100%;
+  min-height: 100%;
 }
 
 @media (min-aspect-ration: 16/9) {
@@ -912,7 +918,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(8, 163, 73, 0.9), rgba(8, 163, 73, 0.9)), url("../img/cta-bg.jpg") fixed center center;
+  background: linear-gradient(rgba(8, 163, 73, 0.9), rgba(8, 163, 73, 0.9)), url("../img/torre.jpg") fixed center center;
   background-size: cover;
   padding: 120px 0;
 }
