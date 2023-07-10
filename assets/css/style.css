@@ -399,7 +399,7 @@ h6 {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
-#hero {
+#inicio {
   width: 100%;
   height: 100vh;
   background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
@@ -445,11 +445,11 @@ h6 {
   background-color: rgba(0,0,0,0.25);
 }
 
-#hero .container {
+#inicio .container {
   padding-top: 72px;
 }
 
-#hero h1 {
+#inicio h1 {
   margin: 0 0 10px 0;
   font-size: 48px;
   font-weight: 700;
@@ -457,13 +457,13 @@ h6 {
   color: #fff;
 }
 
-#hero h2 {
+#inicio h2 {
   color: rgba(255, 255, 255, 0.6);
   margin-bottom: 50px;
   font-size: 24px;
 }
 
-#hero .btn-get-started {
+#inicio .btn-get-started {
   font-family: "Jost", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -477,11 +477,11 @@ h6 {
   background: rgba(8, 163, 73, 0.9);
 }
 
-#hero .btn-get-started:hover {
+#inicio .btn-get-started:hover {
   background: rgba(11, 239, 109, 0.9);
 }
 
-#hero .btn-watch-video {
+#inicio .btn-watch-video {
   font-size: 16px;
   display: flex;
   align-items: center;
@@ -491,7 +491,7 @@ h6 {
   line-height: 1;
 }
 
-#hero .btn-watch-video i {
+#inicio .btn-watch-video i {
   line-height: 0;
   color: #fff;
   font-size: 32px;
@@ -499,58 +499,75 @@ h6 {
   margin-right: 8px;
 }
 
-#hero .btn-watch-video:hover i {
+#inicio .btn-watch-video:hover i {
   color: rgba(11, 239, 109, 0.9);
 }
 
-#hero .animated {
+#inicio .animated {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
 
 @media (max-width: 991px) {
-  #hero {
+  #inicio {
     height: 100vh;
     text-align: center;
   }
 
-  #hero .animated {
+  #inicio .animated {
     animation: none;
   }
 
-  #hero .hero-img {
+  #inicio .hero-img {
     text-align: center;
   }
 
-  #hero .hero-img img {
+  #inicio .hero-img img {
     width: 50%;
   }
 }
 
 @media (max-width: 768px) {
-  #hero h1 {
+  #inicio h1 {
     font-size: 28px;
     line-height: 36px;
   }
 
-  #hero h2 {
+  #inicio h2 {
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 30px;
   }
 
-  #hero .hero-img img {
+  #inicio .hero-img img {
     width: 70%;
   }
 }
 
 @media (max-width: 575px) {
-  #hero .hero-img img {
+  #inicio .hero-img img {
     width: 80%;
   }
 
-  #hero .btn-get-started {
+  #inicio .btn-get-started {
     font-size: 16px;
     padding: 10px 24px 11px 24px;
+  }
+}
+
+@media screen and (max-width: 920px) and (orientation: landscape) {
+  #inicio h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  #inicio h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+
+  #inicio .hero-img img {
+    width: 30%;
   }
 }
 
@@ -829,6 +846,29 @@ section {
   .why-us .img {
     min-height: 200px;
   }
+}
+
+.why-us .content .btn-learn-more {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 32px;
+  border-radius: 4px;
+  transition: 0.3s;
+  line-height: 1;
+  color: rgba(8, 163, 73, 0.9);
+  animation-delay: 0.8s;
+  margin-top: 6px;
+  border: 2px solid rgba(8, 163, 73, 0.9);
+}
+
+.why-us .content .btn-learn-more:hover {
+  background: rgba(11, 239, 109, 0.9);
+  border: rgba(11, 239, 109, 0.9);
+  color: #fff;
+  text-decoration: none;
 }
 
 /*--------------------------------------------------------------
@@ -1454,6 +1494,29 @@ section {
   .faq .faq-list {
     padding: 0;
   }
+}
+
+.faq .container .btn-learn-more {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 32px;
+  border-radius: 4px;
+  transition: 0.3s;
+  line-height: 1;
+  color: rgba(8, 163, 73, 0.9);
+  animation-delay: 0.8s;
+  margin-top: 6px;
+  border: 2px solid rgba(8, 163, 73, 0.9);
+}
+
+.faq .container .btn-learn-more:hover {
+  background: rgba(11, 239, 109, 0.9);
+  border: rgba(11, 239, 109, 0.9);
+  color: #fff;
+  text-decoration: none;
 }
 
 /*--------------------------------------------------------------
