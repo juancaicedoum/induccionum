@@ -872,7 +872,7 @@ section {
   }
 }
 
-.why-us .content .btn-learn-more {
+.why-us .accordion-list .btn-learn-more {
   font-family: "Open Sans", sans-serif;
   font-weight: 500;
   font-size: 14px;
@@ -888,7 +888,7 @@ section {
   border: 2px solid rgba(8, 163, 73, 0.9);
 }
 
-.why-us .content .btn-learn-more:hover {
+.why-us .accordion-list .btn-learn-more:hover {
   background: rgba(11, 239, 109, 0.9);
   border: rgba(11, 239, 109, 0.9);
   color: #fff;
