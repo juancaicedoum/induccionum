@@ -22,7 +22,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Jost", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -464,7 +464,7 @@ h6 {
 }
 
 #inicio .btn-get-started {
-  font-family: "Jost", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 1px;
@@ -697,7 +697,7 @@ section {
 }
 
 .about .content .btn-learn-more {
-  font-family: "Poppins", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 1px;
@@ -721,7 +721,7 @@ section {
 
 /* ACOMPAÑAMIENTO */
 .acompanamiento .content .btn-learn-more {
-  font-family: "Poppins", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 1px;
@@ -795,7 +795,7 @@ section {
 .why-us .accordion-list a {
   display: block;
   position: relative;
-  font-family: "Poppins", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 500;
@@ -873,7 +873,7 @@ section {
 }
 
 .why-us .content .btn-learn-more {
-  font-family: "Poppins", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 1px;
@@ -902,7 +902,7 @@ section {
   font-weight: 700;
   font-size: 32px;
   color: #000000;
-  font-family: "Poppins", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .skills .content ul {
@@ -937,7 +937,7 @@ section {
   text-transform: uppercase;
   display: block;
   font-weight: 600;
-  font-family: "Poppins", sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #000000;
 }
 
@@ -1023,7 +1023,7 @@ section {
 }
 
 .cta .cta-btn {
-  font-family: "Jost", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 1px;
@@ -1074,7 +1074,7 @@ section {
   transition: all 0.3s;
   padding: 8px 20px;
   border-radius: 50px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .portfolio #portfolio-flters li:hover,
@@ -1338,7 +1338,7 @@ section {
   font-size: 48px;
   color: #000000;
   font-weight: 400;
-  font-family: "Jost", sans-serif;
+  font-family: "Open Sans", sans-serif;
   margin-bottom: 25px;
 }
 
@@ -1393,7 +1393,7 @@ section {
   transition: none;
   font-size: 16px;
   font-weight: 500;
-  font-family: "Jost", sans-serif;
+  font-family: "Open Sans", sans-serif;
   transition: 0.3s;
   border: 1px solid rgba(8, 163, 73, 0.9);
 }
@@ -1463,7 +1463,7 @@ section {
 .faq .faq-list a {
   display: block;
   position: relative;
-  font-family: "Poppins", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 500;
@@ -1521,7 +1521,7 @@ section {
 }
 
 .faq .container .btn-learn-more {
-  font-family: "Poppins", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 1px;
@@ -1859,7 +1859,7 @@ section {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Jost", sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #5e5e5e;
 }
 
