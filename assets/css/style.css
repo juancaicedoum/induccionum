@@ -1799,32 +1799,7 @@ section {
   content: "/";
 }
 
-/* Rutas Evacuación Video */
-#rutas-evacuacion .btn-watch-video {
-  font-size: 16px;
-  display: flex;
-  align-items: center;
-  transition: 0.5s;
-  margin: 10px 0 0 25px;
-  color: rgba(8, 163, 73, 0.9);
-  line-height: 1;
-}
 
-#rutas-evacuacion .btn-watch-video i {
-  line-height: 0;
-  color: rgba(8, 163, 73, 0.9);
-  font-size: 32px;
-  transition: 0.3s;
-  margin-right: 8px;
-}
-
-#rutas-evacuacion .btn-watch-video:hover i {
-  color: rgba(11, 239, 109, 0.9);
-}
-
-#rutas-evacuacion .btn-watch-video:hover span {
-  color: rgba(11, 239, 109, 0.9);
-}
 
 /*--------------------------------------------------------------
 # Footer
